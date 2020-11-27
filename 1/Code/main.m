@@ -80,7 +80,7 @@ h1_vor = 100;
 h1_rueck = -100;
 h2_vor = 1;
 h2_rueck = -1;
-% RK4
+% 4.Ordnung
 % Schrittweite 100s
 y_100_vor = RK4_A5(yEP1,tEP1,aEP1,h1_vor,ts);
 y_100_rueck = RK4_A5(yEP2,tEP2,aEP2,h1_rueck,ts);
@@ -91,7 +91,7 @@ y_1_vor = RK2_A5(yEP1,tEP1,aEP1,h2_vor,ts);
 y_1_rueck = RK2_A5(yEP2,tEP2,aEP2,h2_rueck,ts);
 y_1_vor_end = y_1_vor(:,end);
 y_1_rueck_end = y_1_rueck(:,end);
-% RK2
+% 2.Ordnung
 % Schrittweite 100s
 y2_100_vor = RK2_A5(yEP1,tEP1,aEP1,h1_vor,ts);
 y2_100_rueck = RK2_A5(yEP2,tEP2,aEP2,h1_rueck,ts);
