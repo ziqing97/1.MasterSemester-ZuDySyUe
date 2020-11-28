@@ -1,7 +1,6 @@
 %% Zustandsschätzung in dynamischen Systemen Übung 1
 % Ziqing Yu 3218051
 % 25/11/2020
-
 clc
 clear all 
 close all
@@ -12,7 +11,7 @@ y1 = [2.68,2.96,3.66,4.66,1.43;
       2.73,2.97,3.52,4.81,1.82;
       2.63,3.11,3.16,4.48,1.52;
       3.10,2.91,3.47,4.56,1.58;
-      2.78,3.06,3.41,4.66,1.58;
+      2.78,3.06,3.41,4.66,1.72;
       2.79,3.07,3.42,4.61,1.62;
       2.78,3.11,3.36,4.58,1.56;
       2.80,3.07,3.47,4.56,1.62];
@@ -28,7 +27,7 @@ y2 = [2.81,3.12,3.33,4.61,1.56;
       2.80,3.76,4.22,5.31,1.62];
 y2 = y2';
 
-[x1,dx1,sigma1] = SeqAus(y1);
+[x1,dx1,sigma1,e] = SeqAus(y1);
 [x2,dx2,sigma2] = SeqAus(y2);
 
 
@@ -71,10 +70,11 @@ y_100_rueck = RK4_A5(yEP2,tEP2,aEP2,h1_rueck,ts);
 y_100_vor_end = y_100_vor(:,end);
 y_100_rueck_end = y_100_rueck(:,end);
 % Schrittweite 1s
-y_1_vor = RK2_A5(yEP1,tEP1,aEP1,h2_vor,ts);
-y_1_rueck = RK2_A5(yEP2,tEP2,aEP2,h2_rueck,ts);
+y_1_vor = RK4_A5(yEP1,tEP1,aEP1,h2_vor,ts);
+y_1_rueck = RK4_A5(yEP2,tEP2,aEP2,h2_rueck,ts);
 y_1_vor_end = y_1_vor(:,end);
 y_1_rueck_end = y_1_rueck(:,end);
+
 % 2.Ordnung
 % Schrittweite 100s
 y2_100_vor = RK2_A5(yEP1,tEP1,aEP1,h1_vor,ts);

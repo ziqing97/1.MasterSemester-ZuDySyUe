@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.2)  27 NOV 2020 20:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.2)  29 NOV 2020 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,8 +1196,34 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
-) [1
+[1
 
+
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 91.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--134
+
+ []
+
+[3
+
+] [4
+
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 180.
+ [5
+
+] [6
+
+]) [7
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
@@ -1210,27 +1236,32 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 28147 strings out of 492162
- 550061 string characters out of 6125271
- 753924 words of memory out of 5000000
- 32160 multiletter control sequences out of 15000+600000
- 561012 words of font info for 97 fonts, out of 8000000 for 9000
+ 28291 strings out of 492162
+ 552373 string characters out of 6125271
+ 763924 words of memory out of 5000000
+ 32221 multiletter control sequences out of 15000+600000
+ 577815 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,19n,84p,10123b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,20n,84p,10123b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 {f:/texlive/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<f:/texlive/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/texlive/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/texlive/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><f:/texliv
-e/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/texlive/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/texlive/t
-exlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><f:/texlive/texlive/
-2019/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><f:/texlive/texlive/2019/t
-exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><f:/texlive/texlive/2019/texmf-di
-st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (2 pages, 250285 bytes).
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/texlive/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><f:/texlive/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/texlive/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/texlive/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><f:/texlive/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/texlive/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/texlive/texl
+ive/2019/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb><f:/texlive/texlive/2
+019/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><f:/texlive/texlive/2019/t
+exmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><f:/texlive/texlive/2019/texmf
+-dist/fonts/type1/urw/palatino/uplb8a.pfb><f:/texlive/texlive/2019/texmf-dist/f
+onts/type1/urw/palatino/uplbi8a.pfb><f:/texlive/texlive/2019/texmf-dist/fonts/t
+ype1/urw/palatino/uplr8a.pfb><f:/texlive/texlive/2019/texmf-dist/fonts/type1/ur
+w/palatino/uplri8a.pfb>
+Output written on report.pdf (8 pages, 310348 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
