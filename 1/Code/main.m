@@ -86,3 +86,10 @@ y2_1_vor = RK2_A5(yEP1,tEP1,aEP1,h2_vor,ts);
 y2_1_rueck = RK2_A5(yEP2,tEP2,aEP2,h2_rueck,ts);
 y2_1_vor_end = y_1_vor(:,end);
 y2_1_rueck_end = y_1_rueck(:,end);
+
+%
+diff1001_rueck = y_100_rueck_end - y_1_rueck_end;
+diff1001_vor = y_100_vor_end - y_1_vor_end;
+
+diff_rueckvor_100 = y_100_rueck_end - y_100_vor_end;
+diff_rueckvor_1 = y_1_rueck_end - y_1_vor_end;
