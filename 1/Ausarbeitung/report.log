@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.2)  29 NOV 2020 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.2)  29 NOV 2020 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,30 +1203,51 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 91.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
-
- []
-
-[3
-
-] [4
-
-]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 180.
- [5
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 112.
+<images/aufgabe2.png, id=73, 1149.5447pt x 391.4625pt>
+File: images/aufgabe2.png Graphic file (type png)
+<use images/aufgabe2.png>
+Package pdftex.def Info: images/aufgabe2.png  used on input line 132.
+(pdftex.def)             Requested size: 409.71695pt x 139.52267pt.
+ [3
+
+ <./Images/aufgabe2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--160
+
+ []
+
+[4
+
+] [5
 
 ] [6
 
-]) [7
+] [7
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 318--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--34
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+ [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
@@ -1236,10 +1257,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 28294 strings out of 492162
- 552405 string characters out of 6125271
+ 28318 strings out of 492162
+ 552728 string characters out of 6125271
  763924 words of memory out of 5000000
- 32222 multiletter control sequences out of 15000+600000
+ 32234 multiletter control sequences out of 15000+600000
  577815 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,20n,84p,10123b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1258,10 +1279,10 @@ exmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><f:/texlive/texlive/2019/texmf
 onts/type1/urw/palatino/uplbi8a.pfb><f:/texlive/texlive/2019/texmf-dist/fonts/t
 ype1/urw/palatino/uplr8a.pfb><f:/texlive/texlive/2019/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on report.pdf (8 pages, 310781 bytes).
+Output written on report.pdf (10 pages, 341830 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,6 +30,15 @@ y2 = y2';
 [x1,dx1,sigma1,e] = SeqAus(y1);
 [x2,dx2,sigma2] = SeqAus(y2);
 
+%% Aufgabe 2
+figure
+hold on
+for i =1:4
+    plot(dx2(i,:),'Linewidth',3);
+end
+pbaspect([3 1 1])
+legend('\Delta AB', '\Delta BC','\Delta CD','\Delta DE')
+
 
 %% Aufgabe 3
 s = 0.5;
@@ -79,17 +88,20 @@ y_1_rueck_end = y_1_rueck(:,end);
 % Schrittweite 100s
 y2_100_vor = RK2_A5(yEP1,tEP1,aEP1,h1_vor,ts);
 y2_100_rueck = RK2_A5(yEP2,tEP2,aEP2,h1_rueck,ts);
-y2_100_vor_end = y_100_vor(:,end);
-y2_100_rueck_end = y_100_rueck(:,end);
+y2_100_vor_end = y2_100_vor(:,end);
+y2_100_rueck_end = y2_100_rueck(:,end);
 % Schrittweite 1s
 y2_1_vor = RK2_A5(yEP1,tEP1,aEP1,h2_vor,ts);
 y2_1_rueck = RK2_A5(yEP2,tEP2,aEP2,h2_rueck,ts);
-y2_1_vor_end = y_1_vor(:,end);
-y2_1_rueck_end = y_1_rueck(:,end);
+y2_1_vor_end = y2_1_vor(:,end);
+y2_1_rueck_end = y2_1_rueck(:,end);
 
 %
 diff1001_rueck = y_100_rueck_end - y_1_rueck_end;
 diff1001_vor = y_100_vor_end - y_1_vor_end;
+dt1 = diff1001_rueck - diff1001_vor;
 
 diff_rueckvor_100 = y_100_rueck_end - y_100_vor_end;
 diff_rueckvor_1 = y_1_rueck_end - y_1_vor_end;
+dt2 = diff_rueckvor_100 - diff_rueckvor_1;
+

@@ -109,6 +109,32 @@ Die Ergebnisse für die andere 8 Epochen:
 Bei den erst 8 Messungen sind $\sigma$ relativ groß aber konstant weil die Leute nicht ruhig bleiben aber sie bewegen sich auch nicht. Bei den zweit Messungen ist $\sigma$ seit $t_4$ erhöht, das ist die Zeitpunkt wenn der Person sich bewegt hat. 
 \clearpage
 \section{Aufgabe 2}
+\subsection{a}
+Eine separate Ausgleichung für jede einzelne Epoche kann durchgeführt werden. Bei diesem Fall ist der Fehler nur mit dieser Epoche abhängig. Damit sieht man keine Änderungen mit vorherigen Epochen.
+\subsection{b}
+Wir können die Differenzen zwischen den Epochen berechnen und zeichnen: 
+\begin{table}[htbp]\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& $\Delta \overline{AB}$ \ut{mm}   & $\Delta \overline{BC}$ \ut{mm}   & $\Delta \overline{CD}$ \ut{mm}   & $\Delta \overline{DE}$ \ut{mm}   \\ \hline
+		$t_2$ & 7,5 & 25,0 & -5,0 & 27,5  \\ \hline
+		$t_3$ & 13,3 & 10,0 & -30,0 & 43,3   \\ \hline
+		$t_4$ & 17,3 & -28,7 & 201,3 & 4,8   \\ \hline
+		$t_5$ & -7,5 & -8,8 & 116,8 & -15,1   \\ \hline
+		$t_6$ & -2,6 & -2,5 & 76,2 & -0,9   \\ \hline
+		$t_7$ & 2,8 & 6,1 & 42,3 & 14,0   \\ \hline
+		$t_8$ & 7,4 & -12,3 & 46,1 & 2,1   \\ \hline
+	\end{tabular}
+	\caption{Für zweite 8 Epochen}
+\end{table}\\
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{images/aufgabe2} 
+	\caption{Differenz} 
+	\label{fig:pointdraw}
+\end{figure}\\
+Es ist aus dem Graph zu sehen, dass die $\overline{CD}$ hat an Zeitpunkt $t_3$ und $t_4$ deutlich geändert. 
+\clearpage
 \section{Aufgabe 3}
 Die Runge-Kutta dient um die Differentialgleichungen zu lösen, hier soll $y' = t^2 + 2t - y + 1$ mit Anfangswert $y(0) = 0$ an der Stelle $t=0.5$ berechnet werden. Die Schrittweite $h = 0.1$.\\\\
 Runge-Kutta dritter Ordnung:
@@ -242,28 +268,15 @@ Die Ergebnisse:
 \begin{table}[htbp]\centering
 	\begin{tabular}{|l|l|}
 		\hline
-		$x$ (m)     & 1.880289566568e+07  \\ \hline
-		$y$ (m)     & 1.661568254689e+07  \\ \hline
-		$z$ (m)     & -4.599055621492e+06 \\ \hline
-		$v_x$ (m/s) & -4.070049594214e+02 \\ \hline
-		$v_y$ (m/s) & -5.159170009037e+02 \\ \hline
-		$v_z$ (m/s) & -3.503303895904e+03 \\ \hline
+		$x$ (m)     & 1.880296665375e+07  \\ \hline
+		$y$ (m)     & 1.661559652836e+07  \\ \hline
+		$z$ (m)     & -4.599185428836e+06 \\ \hline
+		$v_x$ (m/s) & -4.069690930775e+02 \\ \hline
+		$v_y$ (m/s) & -5.158810055287e+02 \\ \hline
+		$v_z$ (m/s) & -3.503310253629e+03 \\ \hline
 	\end{tabular}
 	\caption{Position und Geschwindigkeit an 1900s (von 1000s mit Schrittweite 100s)(RK2)}
 \end{table}\\
-\begin{table}[htbp]\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		$x$ (m)     & 1.880289473488e+07  \\ \hline
-		$y$ (m)     & 1.661568259796e+07  \\ \hline
-		$z$ (m)     & -4.599055761960e+06 \\ \hline
-		$v_x$ (m/s) & -4.070061798922e+02 \\ \hline
-		$v_y$ (m/s) & -5.159183580348e+02 \\ \hline
-		$v_z$ (m/s) & -3.503303232403e+03 \\ \hline
-	\end{tabular}
-	\caption{Position und Geschwindigkeit an 1900s (von 2800s mit Schrittweite 100s)(RK2)}
-\end{table}
-\clearpage
 \begin{table}[htbp]\centering
 	\begin{tabular}{|l|l|}
 		\hline
@@ -274,18 +287,62 @@ Die Ergebnisse:
 		$v_y$ (m/s) & -5.159170004552e+02 \\ \hline
 		$v_z$ (m/s) & -3.503303895892e+03 \\ \hline
 	\end{tabular}
+	\caption{Position und Geschwindigkeit an 1900s (von 2800s mit Schrittweite 100s)(RK2)}
+\end{table}
+\clearpage
+\begin{table}[htbp]\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		$x$ (m)     & 1.880289567170e+07  \\ \hline
+		$y$ (m)     & 1.661568253962e+07  \\ \hline
+		$z$ (m)     & -4.599055636036e+06 \\ \hline
+		$v_x$ (m/s) & -4.070049555093e+02 \\ \hline
+		$v_y$ (m/s) & -5.159169968526e+02 \\ \hline
+		$v_z$ (m/s) & -3.503303896449e+03 \\ \hline
+	\end{tabular}
 	\caption{Position und Geschwindigkeit an 1900s (von 1000s mit Schrittweite 1s)(RK2)}
 \end{table}
 \begin{table}[htbp]\centering
 	\begin{tabular}{|l|l|}
 		\hline
-		$x$ (m)     & 1.880289473654e+07  \\ \hline
-		$y$ (m)     & 1.661568259745e+07  \\ \hline
-		$z$ (m)     & -4.599055760315e+06 \\ \hline
-		$v_x$ (m/s) & -4.070061799650e+02 \\ \hline
-		$v_y$ (m/s) & -5.159183586592e+02 \\ \hline
-		$v_z$ (m/s) & -3.503303232411e+03 \\ \hline
+		$x$ (m)     & 1.880289473468e+07  \\ \hline
+		$y$ (m)     & 1.661568261063e+07  \\ \hline
+		$z$ (m)     & -4.599055748626e+06 \\ \hline
+		$v_x$ (m/s) & -4.070061827672e+02 \\ \hline
+		$v_y$ (m/s) & -5.159183628987e+02 \\ \hline
+		$v_z$ (m/s) & -3.503303230858e+03 \\ \hline
 	\end{tabular}
 	\caption{Position und Geschwindigkeit an 1900s (von 2800s mit Schrittweite 1s)(RK2)}
 \end{table}
 \subsection{e}
+Die Differenzen zwischen den Vorwärts- und Rückwärtsintegration:
+\begin{table}[htbp]\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+						   & Schrittweite 1s & Schrittweite 100s \\ \hline
+		$\Delta x$ (m)     & -0,9280 & -0,9308 \\ \hline
+		$\Delta y$ (m)     & 0,0494  & 0,0511  \\ \hline
+		$\Delta z$ (m)     & -0,1373 & -0,1405 \\ \hline
+		$\Delta v_x$ (m/s) & -12,2085e-04 & -12,2047e-04 \\ \hline
+		$\Delta v_y$ (m/s) & -13,5820e-04 & -13,5713e-04 \\ \hline
+		$\Delta v_z$ (m/s) & 6,6348e-04 & 6,6350e-04 \\ \hline
+	\end{tabular}
+	\caption{Differenz zwischen den Vorwärts und Rückwärtsintegration}
+\end{table}\\
+Vorwärts- und Rückwärtsintegration auf die gleiche Position kommt unterschiedliche Ergebnisse. Die Unterschied bei Position ist ca. 1 meter und bei Geschwindigkeit ist ca. 1,9 mm/s. \\\\
+Die Differenzen zwischen die Koordinaten mit \SI{1}{s} und \SI{100}{s} Schrittweite. Seh(\ref{tab:diff1}). Die Unterschied bei Position ist ca. $2,3$ mm und bei Geschwindigkeit ist ca. $5,4 \cdot 10^{-4}$ mm/s.\\\\
+Die Ergebnisse von Runge-Kutta 2. Ordnung hat eine große Unterschied von der von 4. Ordnung. Wenn man die genaue Ergebnisse bekommen möchten, soll man 2. Ordnung vermeiden zu verwenden, besonders bei großem Integrationsintervall.
+\begin{table}[h]\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		& Vorwärtsintegration & Rückwärtsintegration \\ \hline
+		$\Delta x$ (m)     & 11,8633e-04 & -16.6238e-04 \\ \hline
+		$\Delta y$ (m)     & -11,8876e-04  & -5.0370e-04  \\ \hline
+		$\Delta z$ (m)     & -15,6822e-04 & -16,4537e-04 \\ \hline
+		$\Delta v_x$ (m/s) & -3,0966e-07 & 7,2855e-07 \\ \hline
+		$\Delta v_y$ (m/s) & -4,4851e-07 & 6,2440e-07 \\ \hline
+		$\Delta v_z$ (m/s) & -1,1609e-08 & 7,7889e-08 \\ \hline
+	\end{tabular}
+	\caption{Differenz von verschiedenen Schrittweiten}
+	\label{tab:diff1}
+\end{table}
