@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.2)  3 DEC 2020 03:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.2)  7 DEC 2020 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,8 +1194,54 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-) [1
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+[1
 
+
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+[3
+
+]
+<images/30realisation.png, id=68, 421.575pt x 316.18124pt>
+File: images/30realisation.png Graphic file (type png)
+<use images/30realisation.png>
+Package pdftex.def Info: images/30realisation.png  used on input line 120.
+(pdftex.def)             Requested size: 409.71695pt x 307.29367pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 121.
+<images/var3.png, id=70, 421.575pt x 316.18124pt>
+File: images/var3.png Graphic file (type png)
+<use images/var3.png>
+Package pdftex.def Info: images/var3.png  used on input line 127.
+(pdftex.def)             Requested size: 364.1967pt x 273.15047pt.
+ [4
+
+ <./Images/30realisation.png (PNG copy)>] [5 <./Images/var3.png (PNG copy)>]
+<images/4_mittelwerte.png, id=86, 421.575pt x 316.18124pt>
+File: images/4_mittelwerte.png Graphic file (type png)
+<use images/4_mittelwerte.png>
+Package pdftex.def Info: images/4_mittelwerte.png  used on input line 165.
+(pdftex.def)             Requested size: 364.1967pt x 273.15047pt.
+<images/var4.png, id=87, 421.575pt x 316.18124pt>
+File: images/var4.png Graphic file (type png)
+<use images/var4.png>
+Package pdftex.def Info: images/var4.png  used on input line 171.
+(pdftex.def)             Requested size: 364.1967pt x 273.15047pt.
+ [6
+
+ <./Images/4_mittelwerte.png (PNG copy)>] [7 <./Images/var4.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+) [8
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
@@ -1208,20 +1254,29 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 28099 strings out of 492162
- 549307 string characters out of 6125271
- 749924 words of memory out of 5000000
- 32135 multiletter control sequences out of 15000+600000
- 549272 words of font info for 68 fonts, out of 8000000 for 9000
+ 28269 strings out of 492162
+ 552420 string characters out of 6125271
+ 762924 words of memory out of 5000000
+ 32233 multiletter control sequences out of 15000+600000
+ 567604 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,19n,84p,10123b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,20n,84p,10123b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 {f:/texlive/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<f:/texlive/t
-exlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><f:/texlive/texlive/
-2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on report.pdf (2 pages, 196906 bytes).
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/texlive/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/texlive/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><f:/texliv
+e/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/texlive/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/texlive/t
+exlive/2019/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb><f:/texlive/texliv
+e/2019/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><f:/texlive/texlive/201
+9/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><f:/texlive/texlive/2019/texmf
+-dist/fonts/type1/urw/palatino/uplbi8a.pfb><f:/texlive/texlive/2019/texmf-dist/
+fonts/type1/urw/palatino/uplr8a.pfb><f:/texlive/texlive/2019/texmf-dist/fonts/t
+ype1/urw/palatino/uplri8a.pfb>
+Output written on report.pdf (9 pages, 440541 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
