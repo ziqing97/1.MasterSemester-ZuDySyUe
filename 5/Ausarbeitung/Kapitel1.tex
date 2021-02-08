@@ -1,0 +1,53 @@
+\chapter{Ausarbeitung}
+\section{Aufgabe 1}
+EKF nutzt Taylor-Approximation 1.Ordnung zur Linearisierung. Wenn man das gemacht, ist die Linearisierung nur am eigentlichen Zustand stattfindet. In manchen Fällen ist der funktionale Zusammenhang hochgradig nichtlinear und die Taylor-Approximation 1.Ordnung kann daher zu einer Verschlechterung des Filters und zu falschen Zustandsschätzungen führen. 
+\section{Aufgabe 2}
+In dieser Aufgabe ist eine Epoche eines UKF berechnet. Der Zustand und Kovarianzmatrix zur Epoche n-1> 
+\begin{equation*}
+	\bm{x}_{n-1|n-1} = \begin{bmatrix}
+		2.0\\
+		3.0
+	\end{bmatrix}, \qquad \bm{P}_{n-1|n-1} = \begin{bmatrix}
+	1.0 & 0.7 \\
+	0.7 & 4.0
+\end{bmatrix}
+\end{equation*}
+Zuerst sind Sigma-Punkten basierend auf dem $\bm{x}_{n-1|n-1}$ 
+\begin{table}[htpb]\centering
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	2.000 &3.273 &2.000 &0.727 &2.000  \\ \hline 
+	3.000 &3.891 &5.385 &2.109 &0.615  \\ \hline 
+	\end{tabular}
+	\caption{Sigma-Punkten basierend auf dem $\bm{x}_{n-1|n-1}$}
+	\label{tab:pat}
+\end{table}\\
+Die unscented Transformation mit Prädiktionsfunktion wird durchgeführt:
+\begin{equation*}
+	\bm{\hat{x}}_{n|n-1} = \begin{bmatrix}
+		0.7131\\
+		0.6737
+	\end{bmatrix}, \qquad \bm{\hat{P}}_{n-1|n-1} = \begin{bmatrix}
+		3.66 & -5.61 \\
+		-5.61 & 33.16
+	\end{bmatrix}
+\end{equation*}
+Damit die Beobachtung berücksichtigt wird, werden Sigma Punkten basierend auf dem $\bm{\hat{x}}_{n|n-1}$ und $\bm{\hat{P}}_{n-1|n-1}$ berechnet werden.
+\begin{equation*}
+	\bm{z}_n^* = -0.9546 \qquad \bm{S}_n + \bm{R} = 27.2384
+\end{equation*}
+wobei $\bm{R} = \sigma_r^2 = 0.4$ der Messgenauigkeit ist. \\\\
+Kalman Gain ist bei UKF multipliziert von $\bm{S}_n + \bm{R}$ und $\bm{P}_{n|n-1}^{x,z}$.
+\begin{equation*}
+	\bm{P}_{n|n-1}^{x,z} = \sum_{i=0}^{2n} w_c^{i}\left[f(\chi_1) - \bm{\hat{x}}_{n|n-1}\right] \left[h(\chi'_1) - \bm{z}_{n}^*\right]
+\end{equation*}
+Dann sind $\bm{\hat{x}}_{n|n}$ und $\bm{\hat{P}}_{n|n}$ bestimmbar:
+\begin{equation*}
+	\bm{\hat{x}}_{n|n-1} = \begin{bmatrix}
+		3.9231\\
+		-3.9861
+	\end{bmatrix}, \qquad \bm{\hat{P}}_{n-1|n-1} = \begin{bmatrix}
+		2.61 & -4.08 \\
+		-4.08 & 30.95
+	\end{bmatrix}
+\end{equation*}
